@@ -3,7 +3,7 @@ body{
     max-width: 1440px;
 }
 /* navbar start */
-nav {
+/* nav {
     background-color: #220F34;
     margin: 56px 0 0 0;
     display: flex;
@@ -12,7 +12,8 @@ nav {
     padding: 0px;
     gap: 278px;
     color: #FFF5F5;
-}
+} */
+
 .navbar img{
     width: 50px;
     height: 50px;
@@ -30,6 +31,11 @@ nav {
     height: 49px;
     color: #FFFFFF;
 
+}
+
+.bg-header {
+    border-radius: 24px;
+    background: linear-gradient(103.45deg, #C373F2 1.08%, #07DEB7 124.85%, rgba(165, 19, 234, 0) 124.86%, #A149D6 124.87%);
 }
 
 .bg-color{
@@ -65,7 +71,7 @@ nav {
     font-family: 'Hind';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2vmax;
     line-height: 120%;
     display: flex;
     align-items: center;
@@ -88,10 +94,30 @@ nav {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 4vmax;
     line-height: 110%;
     color: #FFFFFF;
 
+}
+.btn-color {
+    border-radius: 10px;
+    background: linear-gradient(103.45deg, #C373F2 1.08%, #07DEB7 124.85%, rgba(165, 19, 234, 0) 124.86%, #A149D6 124.87%);
+    font-size: 1vmax;
+}
+.btn-color:hover {
+    background: #FFFFFF;
+}
+.btn-sekunder {
+    background: #35C5C6;
+    color: white;
+    font-weight: bold;
+    border: white;
+    border-radius: 20px;
+    padding: 12px;
+}
+.btn-sekunder:hover {
+    background: white;
+    color: #35C5C6;
 }
 
 .button-header{
@@ -447,6 +473,10 @@ nav {
 /* contact us end */
 
 /* footer start */
+footer {
+    background: linear-gradient(92.49deg, #B87AEF 0%, #48BBCD 102.56%);
+    color: #000000;
+}
 .footer{
     display: flex;
     flex-direction: column;
@@ -516,7 +546,7 @@ nav {
     width: 1280px;
     height: 46px;
 }
-hr{
+hr {
     width: 1280px;
     height: 0px;
     border: 1px solid rgb(255, 255, 255);
