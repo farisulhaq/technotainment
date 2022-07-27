@@ -37,6 +37,10 @@ body{
     border-radius: 24px;
     background: linear-gradient(103.45deg, #C373F2 1.08%, #07DEB7 124.85%, rgba(165, 19, 234, 0) 124.86%, #A149D6 124.87%);
 }
+.bg-card {
+    border-radius: 1.8vmax;
+    background: linear-gradient(103.45deg, #C373F2 1.08%, #07DEB7 124.85%, rgba(165, 19, 234, 0) 124.86%, #A149D6 124.87%);
+}
 
 .bg-color{
     height: 578.54px;
@@ -71,7 +75,7 @@ body{
     font-family: 'Hind';
     font-style: normal;
     font-weight: 400;
-    font-size: 2vmax;
+    font-size: 1.2vmax;
     line-height: 120%;
     display: flex;
     align-items: center;
@@ -80,13 +84,19 @@ body{
     opacity: 0.6;
 
 }
+.col span{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vmax;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
 #text{
     font-family: 'Hind';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 140%;
-
+    font-size: 1.2vmax;
     color: #FFFFFF;
 
 }
@@ -94,7 +104,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 4vmax;
+    font-size: 3vmax;
     line-height: 110%;
     color: #FFFFFF;
 
@@ -113,7 +123,8 @@ body{
     font-weight: bold;
     border: white;
     border-radius: 20px;
-    padding: 12px;
+    padding: 0.8vmax;
+    font-size: 1vmax;
 }
 .btn-sekunder:hover {
     background: white;
